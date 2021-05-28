@@ -1,0 +1,28 @@
+{
+  "name": "ahj-helpdesk-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever ./src/js/server.js",
+    "watch": "forever -w ./src/js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikiforovamaria/ahj-helpdesk-backend.git"
+  },
+  "author": "Maria Nikiforova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikiforovamaria/ahj-helpdesk-backend/issues"
+  },
+  "homepage": "https://github.com/nikiforovamaria/ahj-helpdesk-backend#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
